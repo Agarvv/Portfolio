@@ -1,0 +1,25 @@
+header {
+    padding: 25px;
+    border-bottom: 1.3px solid rgba(255, 255, 255, 0.2);
+    background-color: #1d1d1d;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #language-selector {
+    display: flex;
+    gap: 5px;
+  }
+  
+  #language-selector .flag-icon {
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #language-selector .flag-icon:hover {
+    transform: scale(1.1);
+  }
+  
