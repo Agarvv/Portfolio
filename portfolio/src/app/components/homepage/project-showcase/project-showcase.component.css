@@ -1,0 +1,68 @@
+.projects {
+  display: flex;
+}
+
+.projects .project {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-name {
+  text-align: center;
+}
+
+.project .p-image {
+  width: 100%;
+  height: 150px;
+}
+
+.p-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p-des {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.funcs {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.funcs i {
+  color: green;
+}
+
+.funcs .func {
+  margin-bottom: 10px;
+}
+
+.details-project button {
+  width: 60%;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+}
+
+.tech-stack {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media(max-width: 600px) {
+  .projects {
+    flex-direction: column;
+  }
+}
