@@ -126,3 +126,7 @@
     color: red;
     font-weight: 1000;
   }
+  
+  .projects {
+  display: flex;
+}

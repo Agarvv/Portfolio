@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.projects .project {
+.project {
   padding: 10px;
   flex: 1;
   display: flex;
