@@ -11,6 +11,6 @@ export class ProjectDetailComponent {
   @Input() detail: string = 'Project Title';  
   @Input() description: string = 'Project Description';  
   @Input() detailMediaType: string = 'img';  
-  @Input() detailMedia: string = '';  
-  @Input() responsiveDetailMedia: string | null = null;  
+  @Input() detailMedia: string = 'assets/Showroom_508_M_Allure_1.jpg';  
+  @Input() responsiveDetailMedia: string | null = 'assets/Showroom_508_M_Allure_1.jpg';  
 }
