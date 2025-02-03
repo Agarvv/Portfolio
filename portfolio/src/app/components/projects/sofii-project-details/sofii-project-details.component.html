@@ -1,1 +1,38 @@
-<p>sofii-project-details works!</p>
+<main>
+  <div class="sofii-h">
+    <h2>Sofii</h2>
+  </div>
+
+  <app-project-detail
+    [detail]="'Project 1'"
+    [description]="'Este es el primer proyecto con un video como medio.'"
+    [detailMediaType]="'video'"
+    [detailMedia]="'path/to/video.mp4'"
+    [responsiveDetailMedia]="'path/to/responsive-image1.jpg'"
+  ></app-project-detail>
+
+  <app-project-detail
+    [detail]="'Project 2'"
+    [description]="'Descripción de un proyecto con solo una imagen.'"
+    [detailMediaType]="'img'"
+    [detailMedia]="'path/to/image2.jpg'"
+    [responsiveDetailMedia]="'path/to/responsive-image2.jpg'"
+  ></app-project-detail>
+
+  <app-project-detail
+    [detail]="'Project 3'"
+    [description]="'Otro proyecto con una imagen de ejemplo.'"
+    [detailMediaType]="'img'"
+    [detailMedia]="'path/to/image3.jpg'"
+    [responsiveDetailMedia]="'path/to/responsive-image3.jpg'"
+  ></app-project-detail>
+
+  <app-project-detail
+    [detail]="'Project 4'"
+    [description]="'Un proyecto con video y una imagen responsiva.'"
+    [detailMediaType]="'video'"
+    [detailMedia]="'path/to/video2.mp4'"
+    [responsiveDetailMedia]="'path/to/responsive-image4.jpg'"
+  ></app-project-detail>
+
+</main>

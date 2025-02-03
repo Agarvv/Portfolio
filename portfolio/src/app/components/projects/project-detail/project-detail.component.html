@@ -1,10 +1,15 @@
-<div class="project-detail">
-  <div class="pd-des">
-    <h2>{{ detail }}</h2>
-    <p>{{ description }}</p>
-  </div>
-  <div class="pd-media">
-    <img *ngIf="detailMediaType === 'img'" [src]="detailMedia" alt="Project media"/>
+<div class="project-detail">  
+  <div class="pd-des">  
+    <h2>{{ detail }}</h2>  
+    <p>{{ description }}</p>  
+  </div>  
+  <div class="pd-media">  
+
+    <img *ngIf="detailMediaType === 'img' && detailMedia" [src]="detailMedia" alt="Project media"/>  
+    
     <video *ngIf="detailMediaType === 'video'" controls [src]="detailMedia"></video>
-  </div>
+
+    <img *ngIf="responsiveDetailMedia" [src]="responsiveDetailMedia" alt="Responsive Project media" class="mobile-view"/>
+    
+  </div>  
 </div>
