@@ -1,0 +1,10 @@
+<div class="project-detail">
+  <div class="pd-des">
+    <h2>{{ detail }}</h2>
+    <p>{{ description }}</p>
+  </div>
+  <div class="pd-media">
+    <img *ngIf="detailMediaType === 'img'" [src]="detailMedia" alt="Project media"/>
+    <video *ngIf="detailMediaType === 'video'" controls [src]="detailMedia"></video>
+  </div>
+</div>
