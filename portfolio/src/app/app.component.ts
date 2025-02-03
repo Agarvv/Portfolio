@@ -10,13 +10,7 @@ import { HttpClient } from '@angular/common/http';
   standalone: true,
   imports: [
     RouterOutlet,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient],
-      },
-    }),
+    TranslateModule,  
     HttpClientModule,
   ],
   templateUrl: './app.component.html',
@@ -25,12 +19,11 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   constructor(private translate: TranslateService) {
     this.translate.setDefaultLang('fr');
-    this.translate.use('fr'); 
+    this.translate.use('fr');
   }
 
-  
+ 
 }
-
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
