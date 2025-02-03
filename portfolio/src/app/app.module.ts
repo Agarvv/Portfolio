@@ -6,7 +6,10 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { RouterModule } from '@angular/router'; 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { HomepageComponent } from './components/homepage/homepage.component'
+import { routes } from './app.routes'; 
+import { MainLayoutComponent } from './components/layouts/main-layout/main-layout.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { SofiiProjectDetailsComponent } from './components/projects/sofii-project-details/sofii-project-details.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -14,13 +17,16 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 @NgModule({
   declarations: [
-    
+    AppComponent,
+    MainLayoutComponent,
+    HomepageComponent,   
+    SofiiProjectDetailsComponent
   ],
   imports: [
     BrowserModule,
     CommonModule,
     HttpClientModule,
-    RouterModule.forRoot([]),
+    RouterModule.forRoot(routes), 
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -32,6 +38,4 @@ export function HttpLoaderFactory(http: HttpClient) {
   providers: [],
   bootstrap: [AppComponent]
 })
-
-
 export class AppModule { }
