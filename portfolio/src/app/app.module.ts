@@ -15,12 +15,13 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
+    HomepageComponent 
   ],
   imports: [
     BrowserModule,
     CommonModule,
     HttpClientModule,
-    RouterModule.forRoot([]),  
+    RouterModule.forRoot([]),
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -32,4 +33,6 @@ export function HttpLoaderFactory(http: HttpClient) {
   providers: [],
   bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }
