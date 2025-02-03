@@ -43,6 +43,7 @@
 
 .funcs .func {
   margin-bottom: 10px;
+  gap: 10px;
 }
 
 .details-project button {
@@ -58,11 +59,7 @@
   gap: 5px;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
 }
 
 
-@media(max-width: 600px) {
-  .projects {
-    flex-direction: column;
-  }
-}

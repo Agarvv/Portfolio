@@ -130,3 +130,9 @@
   .projects {
   display: flex;
 }
+
+@media(max-width: 600px) {
+  .projects {
+    flex-direction: column;
+  }
+}
