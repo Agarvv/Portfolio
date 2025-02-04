@@ -1,12 +1,19 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
 import { appConfig } from './app/app.config';
-import { TranslateModule } from '@ngx-translate/core';  
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';  
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 bootstrapApplication(AppComponent, {
   providers: [
     ...appConfig.providers,
-    
+    HttpClientModule,  
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
