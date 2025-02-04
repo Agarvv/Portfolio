@@ -22,7 +22,6 @@
     "@ngx-translate/http-loader": "^16.0.1",
     "i18next": "^24.2.2",
     "i18next-http-backend": "^3.0.2",
-    "ngx-i18next": "^1.1.8",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
