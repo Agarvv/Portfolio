@@ -6,7 +6,7 @@
     <img [src]="image" alt="Project Screenshot" />
   </div>
   <div class="p-des">
-    <p>{{ translatedDescription }}</p>
+    <p>{{ description }}</p>
   </div>
   
   <div class="tech-stack">
@@ -15,14 +15,14 @@
     </div>
   </div>
 
-  <div *ngFor="let func of translatedFunctionalities; let i = index" class="funcs">
-    <div class="func">
+  <div class="funcs">
+    <div *ngFor="let func of translatedFunctionalities; let i = index" class="func">
       <i class="fas fa-check-circle"></i>
       <span>{{ func }}</span>
     </div>
   </div>
 
   <div class="details-project">
-    <button>Details</button>
+    <button>{{ 'projectDetailsBtn' | translate }}</button>
   </div>
 </div>

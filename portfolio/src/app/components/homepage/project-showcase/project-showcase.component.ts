@@ -5,7 +5,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-project-showcase',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './project-showcase.component.html',
   styleUrls: ['./project-showcase.component.css']
 })
@@ -19,18 +19,7 @@ export class ProjectShowcaseComponent  {
   translatedDescription!: string;
   @Input() functionalities!: string[];
   @Input() translatedFunctionalities!: string[];
-
- /* constructor(private translate: TranslateService) {}
-
-  ngOnInit() {
-    this.translate.get(this.description).subscribe(desc => {
-      this.translatedDescription = desc;
-    });
-
-    this.translate.get(this.functionalities).subscribe(funcs => {  
-      this.translatedFunctionalities = funcs;  
-    });
-  }
-  */
   
+  constructor(public translate: TranslateService) {}
+
 }

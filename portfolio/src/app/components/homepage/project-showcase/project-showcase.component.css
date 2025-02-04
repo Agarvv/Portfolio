@@ -33,17 +33,26 @@
   margin-top: 15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 30px;
+  align-items: flex-start;
+  margin-left: 80px;
+   gap: 10px;
+ 
 }
 
 .funcs i {
   color: green;
+  margin-right: 10px;
 }
 
 .funcs .func {
   margin-bottom: 10px;
   gap: 10px;
+}
+
+.details-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .details-project button {

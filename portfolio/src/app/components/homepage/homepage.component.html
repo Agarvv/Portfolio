@@ -5,16 +5,20 @@
     <p>{{ 'banner.precision' | translate }}</p>
     <button>{{ 'banner.button' | translate }}</button>
   </div>
-  
+
   <div class="main-projects">
     <div class="main-psh">
-      <h1 [innerHTML]="'projects.header' | translate"></h1>
+      <h1>
+        {{ 'projects.header' | translate }}
+        <span class="some-strong">{{ 'projects.headerStrong' | translate }}</span>
+      </h1>
     </div>
+    
     <div class="projects">
       <app-project-showcase
         [name]="'Sofii'"
         [image]="'assets/Showroom_508_M_Allure_1.jpg'"
-        [description]="translate.get('projects.project1.description') | async"
+        [description]="(translate.get('projects.project1.description') | async)!"
         [techStack]="[
           'devicon-nodejs-plain',
           'devicon-vuejs-plain',
@@ -23,6 +27,34 @@
           'devicon-typescript-plain'
         ]"
         [translatedFunctionalities]="functionalitiesProject1">
+      </app-project-showcase>
+
+      <app-project-showcase
+        [name]="'Jagarv'"
+        [image]="'assets/Showroom_508_M_Allure_1.jpg'"
+        [description]="(translate.get('projects.project2.description') | async)!"
+        [techStack]="[
+          'devicon-java-plain',
+          'devicon-spring-plain',
+          'devicon-angularjs-plain',
+          'devicon-postgresql-plain',
+          'devicon-docker-plain',
+          'devicon-typescript-plain'
+        ]"
+        [translatedFunctionalities]="functionalitiesProject2">
+      </app-project-showcase>
+
+      <app-project-showcase
+        [name]="'Lebagarv'"
+        [image]="'assets/Showroom_508_M_Allure_1.jpg'"
+        [description]="(translate.get('projects.project3.description') | async)!"
+        [techStack]="[
+          'devicon-csharp-plain',
+          'devicon-react-plain',
+          'devicon-mysql-plain',
+          'devicon-docker-plain'
+        ]"
+        [translatedFunctionalities]="functionalitiesProject3">
       </app-project-showcase>
     </div>
   </div>

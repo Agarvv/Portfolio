@@ -1,84 +1,81 @@
 {
-    "banner": {
-      "title": "Qualität, Präzision, Eleganz, Mein Wort.",
-      "description": "Ich bin Agarv Caslu, Full-Stack-Entwickler. Ich verwandle jedes Projekt in eine Erfolgsgeschichte.",
-      "precision": "Präzision ist meine Besessenheit. Ich mache Dinge nicht nur, um sie zu machen, ich strebe immer nach dem Besten.",
-      "button": "Meine Projekte"
+  "banner": {
+    "title": "Qualität, Präzision, Eleganz, Mein Wort.",
+    "description": "Ich bin Agarv Caslu, ein Full-Stack-Entwickler. Ich mache jedes Projekt zu einer Erfolgsgeschichte.",
+    "precision": "Präzision ist meine Obsession. Ich mache nichts einfach so, ich strebe immer nach dem Besten.",
+    "button": "Meine Projekte"
+  },
+  "projectDetailsBtn": "Details",
+  "projects": {
+    "header": "Einige meiner Meisterwerke der",
+    "headerStrong": "Ingenieurkunst",
+    "project1": {
+      "name": "Sofii",
+      "description": "Echtzeit-Full-Stack-Soziales Netzwerk mit Express.js, Socket.IO, Vue.js und MySQL.",
+      "techStack": [
+        "devicon-nodejs-plain",
+        "devicon-vuejs-plain",
+        "devicon-mysql-plain",
+        "devicon-socketio-plain",
+        "devicon-typescript-plain"
+      ],
+      "functionalities": [
+        "Echtzeit-Push-Benachrichtigungen",
+        "Echtzeit-Likes, Kommentare",
+        "Echtzeit-Chat-System",
+        "Sichere Anmeldung mit JWT",
+        "Erstellen & Verwalten von Posts",
+        "Freunde, Anfragen, Follower",
+        "Profilverwaltung",
+        "Skalierbarkeit & Leistung",
+        "Sauberes, modernes UI"
+      ]
     },
-    "projects": {
-      "header": "Einige meiner Meisterwerke in <strong class=\"some-strong\">Ingenieurwissenschaften</strong>:",
-      "project1": {
-        "name": "Sofii",
-        "description": "Soziales Netzwerk in Echtzeit, unterstützt durch Express.js, Socket.IO, Vue.js und MySQL. Frontend und Backend mit TypeScript.",
-        "techStack": [
-          "devicon-nodejs-plain",
-          "devicon-vuejs-plain",
-          "devicon-mysql-plain",
-          "devicon-socketio-plain",
-          "devicon-typescript-plain"
-        ],
-        "functionalities": [
-          "Echtzeit-Benachrichtigungen",
-          "Echtzeit-Newsfeed",
-          "Likes, Kommentare in Echtzeit",
-          "Chats in Echtzeit",
-          "Sichere JWT-Authentifizierung",
-          "Echtzeit-Nachrichten",
-          "Beiträge erstellen und speichern",
-          "Freunde, Anfragen, Abonnenten",
-          "Sauberer und skalierbarer Code",
-          "Saubere und benutzerfreundliche UI"
-        ]
-      },
-      "project2": {
-        "name": "Jagarv",
-        "description": "Soziales Netzwerk in Echtzeit, unterstützt durch Express.js, Socket.IO, Vue.js und MySQL. Frontend und Backend mit TypeScript.",
-        "techStack": [
-          "devicon-java-plain",
-          "devicon-spring-plain",
-          "devicon-angularjs-plain",
-          "devicon-postgresql-plain",
-          "devicon-docker-plain",
-          "devicon-typescript-plain"
-        ],
-        "functionalities": [
-          "Echtzeit-Benachrichtigungen",
-          "Echtzeit-Newsfeed",
-          "Likes, Kommentare in Echtzeit",
-          "Chats in Echtzeit",
-          "Sichere JWT-Authentifizierung",
-          "Echtzeit-Nachrichten",
-          "Beiträge erstellen und speichern",
-          "Freunde, Anfragen, Abonnenten",
-          "Sauberer und skalierbarer Code",
-          "Saubere und benutzerfreundliche UI"
-        ]
-      },
-      "project3": {
-        "name": "Sofii",
-        "description": "Soziales Netzwerk in Echtzeit, unterstützt durch Express.js, Socket.IO, Vue.js und MySQL. Frontend und Backend mit TypeScript.",
-        "techStack": [
-          "devicon-java-plain",
-          "devicon-spring-plain",
-          "devicon-angularjs-plain",
-          "devicon-postgresql-plain",
-          "devicon-docker-plain",
-          "devicon-typescript-plain"
-        ],
-        "functionalities": [
-          "Echtzeit-Benachrichtigungen",
-          "Echtzeit-Newsfeed",
-          "Likes, Kommentare in Echtzeit",
-          "Chats in Echtzeit",
-          "Sichere JWT-Authentifizierung",
-          "Echtzeit-Nachrichten",
-          "Beiträge erstellen und speichern",
-          "Freunde, Anfragen, Abonnenten",
-          "Sauberer und skalierbarer Code",
-          "Saubere und benutzerfreundliche UI"
-        ]
-      }
+    "project2": {
+      "name": "Jagarv",
+      "description": "Robustes Full-Stack-E-Commerce mit Java, Spring, Angular und PostgreSQL.",
+      "techStack": [
+        "devicon-java-plain",
+        "devicon-spring-plain",
+        "devicon-angularjs-plain",
+        "devicon-postgresql-plain",
+        "devicon-docker-plain",
+        "devicon-typescript-plain"
+      ],
+      "functionalities": [
+        "Warenkorb-System",
+        "Sichere Zahlungen: Stripe, PayPal",
+        "Admin-Panel-Verwaltung",
+        "Admin-Dashboard mit Charts",
+        "Review-System",
+        "Rabatt- und Gutscheinsystem",
+        "JWT-geschützte Anmeldung",
+        "Bestellhistorie",
+        "Vollständig responsives Design"
+      ]
     },
-    "test": "Hallo"
-  }
-  
+    "project3": {
+      "name": "Lebagarv",
+      "description": "Full-Stack-Automarkt mit C#, ASP.NET 8, React und MySQL.",
+      "techStack": [
+        "devicon-csharp-plain",
+        "devicon-dotnetcore-plain",
+        "devicon-react-plain",
+        "devicon-mysql-plain",
+        "devicon-docker-plain",
+        "devicon-typescript-plain"
+      ],
+      "functionalities": [
+        "Anzeigen erstellen",
+        "Anzeige-Suche System",
+        "Echtzeit-Chat-System",
+        "Favoriten-Anzeigen speichern",
+        "Nutzerprofil-System",
+        "Modernes & sauberes UI",
+        "Hoch skalierbare Struktur",
+        "Clean-Architecture-Muster"
+      ]
+    }
+  },
+  "test": "Hallo"
+}
