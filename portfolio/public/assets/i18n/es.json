@@ -80,7 +80,29 @@
   "test": "Hola",
    "projectDetails": {
       "sofii": {
-          "videoDescription": "Testibgg"
+          "videoDetail": "Video De Sofii Funcionando",
+          "videoDescription": "Desafortunadamente, no he podido subir Sofii a un servidor. Sin embargo, he preparado un video en el que se muestran las funcionalidades más importantes de la aplicación en acción.",
+          
+          "homepageDetail": "Página Príncipal",
+          "homepageDescription": "En esta seccion, se presenta una captura de pantalla de la página principal de la aplicación, donde suceden la mayoria de eventos en Tiempo real como Las Notificaciones, El Feed En tiempo real, y las interacciones de los usuarios con las publicaciones. Ej: Likes, Saved. Desde esta página, el usuario puede interactuar con las publicaciones mediante likes, guardarlas, o acceder al perfil de otros usuarios.",
+          
+          "chatDetail": "Página de Chat",
+          "chatPage": "En esta sección, se muestra la página de chat, donde los usuarios pueden comunicarse en tiempo real y visualizar el estado de actividad de sus contactos (activo/inactivo).",
+          
+          "homepageDetail": "Página de Perfil",
+          "profilePage": "Esta es la página de perfil del usuario, desde donde se pueden enviar solicitudes de amistad, seguir a otros usuarios, chatear con otros usuarios, y consultar información relevante, como datos personales y publicaciones.",
+          
+          "friendsDetail": "Página de Amigos"
+          "friendsPage": "Esta es la página de amigos, donde el usuario puede consultar su lista de amigos, gestionar las solicitudes de amistad y aceptar o rechazar invitaciones.",
+          
+          "notificationsDetails": "Página de Notificaciones"
+          "notificationsPage": "Esta es la página de notificaciones, donde los usuarios pueden consultar sus notificaciones y gestionar su eliminación según lo deseen.", 
+          
+          "searchDetails": "Página de Busqueda"
+          "searchPage": "Esta es la página de búsqueda, donde los usuarios pueden explorar otros perfiles o publicaciones, y aplicar filtros según sus preferencias.",
+          
+          "savedsDetails": "Página de Guardados"
+          "savedsPage": "Esta es la página de publicaciones guardadas, donde los usuarios pueden acceder a las publicaciones que han guardado y interactuar con ellas."
       }
   }
 }

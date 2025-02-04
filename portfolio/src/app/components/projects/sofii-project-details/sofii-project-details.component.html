@@ -4,7 +4,7 @@
   </div>
 
   <app-project-detail
-    [detail]="'Video Of Sofii Running'"
+    [detail]="translate.get('projectDetails.sofii.videoDetail') | async"
     [description]="translate.get('projectDetails.sofii.videoDescription') | async"
     [detailMediaType]="'video'"
     [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
@@ -12,67 +12,61 @@
   ></app-project-detail>
 
   <app-project-detail
-    [detail]="'Project 2'"
-    [description]="'Descripción de un proyecto con solo una imagen.'"
+    [detail]="translate.get('projectDetails.sofii.homepageDetail') | async"
+    [description]="translate.get('projectDetails.sofii.homepageDescription') | async"
     [detailMediaType]="'img'"
     [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
     [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
   ></app-project-detail>
 
   <app-project-detail
-    [detail]="'Project 3'"
-    [description]="'Otro proyecto con una imagen de ejemplo.'"
+    [detail]="translate.get('projectDetails.sofii.chatDetail') | async"
+    [description]="translate.get('projectDetails.sofii.chatPage') | async"
     [detailMediaType]="'img'"
     [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
     [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
   ></app-project-detail>
 
   <app-project-detail
-    [detail]="'Project 4'"
-    [description]="'Un proyecto con video y una imagen responsiva.'"
+    [detail]="translate.get('projectDetails.sofii.profileDetail') | async"
+    [description]="translate.get('projectDetails.sofii.profilePage') | async"
     [detailMediaType]="'video'"
     [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
     [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
   ></app-project-detail>
 
   <app-project-detail
-    [detail]="'Project 5'"
-    [description]="'Este es el quinto proyecto, que también usa video.'"
+    [detail]="translate.get('projectDetails.sofii.friendsDetail') | async"
+    [description]="translate.get('projectDetails.sofii.friendsPage') | async"
     [detailMediaType]="'video'"
     [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
     [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
   ></app-project-detail>
 
   <app-project-detail
-    [detail]="'Project 6'"
-    [description]="'Descripción de un proyecto con imagen.'"
+        [detail]="translate.get('projectDetails.sofii.notificationsDetails') | async"
+        [description]="translate.get('projectDetails.sofii.notificationsPage') | async"
     [detailMediaType]="'img'"
     [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
     [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
   ></app-project-detail>
 
   <app-project-detail
-    [detail]="'Project 7'"
-    [description]="'Un séptimo proyecto, solo con video.'"
+    [detail]="translate.get('projectDetails.sofii.searchDetails') | async"
+            [description]="translate.get('projectDetails.sofii.searchPage') | async"
     [detailMediaType]="'video'"
     [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
     [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
   ></app-project-detail>
 
   <app-project-detail
-    [detail]="'Project 8'"
-    [description]="'Proyecto con imagen responsiva.'"
+    [detail]="translate.get('projectDetails.sofii.savedsDetail') | async"
+                [description]="translate.get('projectDetails.sofii.savedsPage') | async"
     [detailMediaType]="'img'"
     [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
     [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
   ></app-project-detail>
 
-  <app-project-detail
-    [detail]="'Project 9'"
-    [description]="'Último proyecto con video y una imagen responsiva.'"
-    [detailMediaType]="'video'"
-    [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-    [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-  ></app-project-detail>
+ 
 
 </main>

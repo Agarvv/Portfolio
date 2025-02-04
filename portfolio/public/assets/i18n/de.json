@@ -79,8 +79,30 @@
   },
   "test": "Hallo",
    "projectDetails": {
-      "sofii": {
-          "videoDescription": "Testibgg"
-      }
-  }
+    "sofii": {
+        "videoDetail": "Sofii Funktionsvideo",
+        "videoDescription": "Leider konnte ich Sofii nicht auf einen Server hochladen. Ich habe jedoch ein Video vorbereitet, das die wichtigsten Funktionen der Anwendung in Aktion zeigt.",
+        
+        "homepageDetail": "Startseite",
+        "homepageDescription": "In diesem Abschnitt wird ein Screenshot der Hauptseite der Anwendung angezeigt, auf der die meisten Echtzeit-Ereignisse stattfinden, wie Benachrichtigungen, der Echtzeit-Feed und Benutzerinteraktionen mit Beiträgen (z. B. Likes, gespeicherte Beiträge). Von dieser Seite aus kann der Benutzer mit Beiträgen interagieren, indem er sie liked, speichert oder auf Profile anderer Benutzer zugreift.",
+        
+        "chatDetail": "Chat-Seite",
+        "chatPage": "In diesem Abschnitt wird die Chat-Seite angezeigt, auf der Benutzer in Echtzeit kommunizieren und den Aktivitätsstatus ihrer Kontakte (aktiv/inaktiv) einsehen können.",
+        
+        "homepageDetail": "Profilseite",
+        "profilePage": "Dies ist die Profilseite des Benutzers, von der aus Freundschaftsanfragen gesendet, andere Benutzer gefolgt, mit ihnen gechattet und relevante Informationen wie persönliche Daten und Beiträge eingesehen werden können.",
+        
+        "friendsDetail": "Freundes-Seite",
+        "friendsPage": "Dies ist die Freundes-Seite, auf der der Benutzer seine Freundesliste einsehen, Freundschaftsanfragen verwalten und Einladungen annehmen oder ablehnen kann.",
+        
+        "notificationsDetails": "Benachrichtigungs-Seite",
+        "notificationsPage": "Dies ist die Benachrichtigungs-Seite, auf der Benutzer ihre Benachrichtigungen einsehen und deren Löschung nach Belieben verwalten können.",
+        
+        "searchDetails": "Such-Seite",
+        "searchPage": "Dies ist die Such-Seite, auf der Benutzer nach anderen Profilen oder Beiträgen suchen und Filter nach ihren Präferenzen anwenden können.",
+        
+        "savedsDetails": "Gespeicherte Beiträge-Seite",
+        "savedsPage": "Dies ist die Seite der gespeicherten Beiträge, auf der Benutzer auf die von ihnen gespeicherten Beiträge zugreifen und mit ihnen interagieren können."
+    }
+}
 }
