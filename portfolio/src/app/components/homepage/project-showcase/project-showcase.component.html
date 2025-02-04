@@ -6,7 +6,7 @@
         <img [src]="image" alt="Project Screenshot" />
     </div>
     <div class="p-des">
-        <p>{{ description }}</p>
+        <p>{{ translatedDescription }}</p>
 
         <div class="tech-stack">
             <div *ngFor="let tech of techStack">
@@ -14,10 +14,10 @@
             </div>
         </div>
 
-        <div *ngFor="let func of functionalities" class="funcs">
+        <div *ngFor="let func of translatedFunctionalities" class="funcs">
             <div class="func">
                 <i class="fas fa-check-circle"></i>
-                <span>{{ func | translate }}</span> 
+                <span>{{ func }}</span> 
             </div>
         </div>
 
