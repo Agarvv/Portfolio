@@ -77,5 +77,10 @@
       ]
     }
   },
-  "test": "Hallo"
+  "test": "Hallo",
+   "projectDetails": {
+      "sofii": {
+          "videoDescription": "Testibgg"
+      }
+  }
 }

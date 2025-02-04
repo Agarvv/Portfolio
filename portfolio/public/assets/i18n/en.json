@@ -78,8 +78,8 @@
     }
   },
   "test": "Hello",
-  projectDetails: {
-      sofii: {
+  "projectDetails": {
+      "sofii": {
           "videoDescription": "Testibgg"
       }
   }
