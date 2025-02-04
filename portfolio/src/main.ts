@@ -13,6 +13,8 @@ export function HttpLoaderFactory(http: HttpClient) {
 bootstrapApplication(AppComponent, {
   providers: [
     ...appConfig.providers,
+  ],
+  imports: [
     HttpClientModule,  
     TranslateModule.forRoot({
       loader: {
