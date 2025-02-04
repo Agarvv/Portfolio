@@ -10,84 +10,20 @@
     <div class="main-psh">
       <h1 [innerHTML]="'projects.header' | translate"></h1>
     </div>
-    
     <div class="projects">
-        
       <app-project-showcase
-    [name]="'Sofii'"
-    [image]="'assets/Showroom_508_M_Allure_1.jpg'"
-    [description]="'projects.project1.description'"
-    [techStack]="[
-      'devicon-nodejs-plain',
-      'devicon-vuejs-plain',
-      'devicon-mysql-plain',
-      'devicon-socketio-plain',
-      'devicon-typescript-plain'
-    ]"
-    [functionalities]="[
-      'projects.project1.functionalities[0]',
-      'projects.project1.functionalities[1]',
-      'projects.project1.functionalities[2]',
-      'projects.project1.functionalities[3]',
-      'projects.project1.functionalities[4]',
-      'projects.project1.functionalities[5]',
-      'projects.project1.functionalities[6]',
-      'projects.project1.functionalities[7]',
-      'projects.project1.functionalities[8]',
-      'projects.project1.functionalities[9]'
-    ]">
-</app-project-showcase>
-
-         <app-project-showcase
-    [name]="'Jagarv'"
-    [image]="'assets/Showroom_508_M_Allure_1.jpg'"
-    [description]="'projects.project1.description'"
-    [techStack]="[
-      'devicon-nodejs-plain',
-      'devicon-vuejs-plain',
-      'devicon-mysql-plain',
-      'devicon-socketio-plain',
-      'devicon-typescript-plain'
-    ]"
-    [functionalities]="[
-      'projects.project1.functionalities[0]',
-      'projects.project1.functionalities[1]',
-      'projects.project1.functionalities[2]',
-      'projects.project1.functionalities[3]',
-      'projects.project1.functionalities[4]',
-      'projects.project1.functionalities[5]',
-      'projects.project1.functionalities[6]',
-      'projects.project1.functionalities[7]',
-      'projects.project1.functionalities[8]',
-      'projects.project1.functionalities[9]'
-    ]">
-</app-project-showcase>
-
-<app-project-showcase
-    [name]="'Lebagarv'"
-    [image]="'assets/Showroom_508_M_Allure_1.jpg'"
-    [description]="'projects.project1.description'"
-    [techStack]="[
-      'devicon-nodejs-plain',
-      'devicon-vuejs-plain',
-      'devicon-mysql-plain',
-      'devicon-socketio-plain',
-      'devicon-typescript-plain'
-    ]"
-    [functionalities]="[
-      'projects.project1.functionalities[0]',
-      'projects.project1.functionalities[1]',
-      'projects.project1.functionalities[2]',
-      'projects.project1.functionalities[3]',
-      'projects.project1.functionalities[4]',
-      'projects.project1.functionalities[5]',
-      'projects.project1.functionalities[6]',
-      'projects.project1.functionalities[7]',
-      'projects.project1.functionalities[8]',
-      'projects.project1.functionalities[9]'
-    ]">
-</app-project-showcase>
-
+        [name]="'Sofii'"
+        [image]="'assets/Showroom_508_M_Allure_1.jpg'"
+        [description]="translate.get('projects.project1.description') | async"
+        [techStack]="[
+          'devicon-nodejs-plain',
+          'devicon-vuejs-plain',
+          'devicon-mysql-plain',
+          'devicon-socketio-plain',
+          'devicon-typescript-plain'
+        ]"
+        [translatedFunctionalities]="functionalitiesProject1">
+      </app-project-showcase>
     </div>
-  </div> 
+  </div>
 </main>
