@@ -1,0 +1,84 @@
+{
+    "banner": {
+      "title": "Quality, Precision, Elegance, My Word.",
+      "description": "I am Agarv Caslu, a Full-Stack Developer. I turn every project into a success story.",
+      "precision": "Precision is my obsession. I don't do things just to do them, I always aim for the best.",
+      "button": "My Projects"
+    },
+    "projects": {
+      "header": "Some of my <strong class=\"some-strong\">Engineering</strong>: Masterpieces",
+      "project1": {
+        "name": "Sofii",
+        "description": "Real-time social network powered by Express.js, Socket.IO, Vue.js, and MySQL. Frontend and backend using TypeScript.",
+        "techStack": [
+          "devicon-nodejs-plain",
+          "devicon-vuejs-plain",
+          "devicon-mysql-plain",
+          "devicon-socketio-plain",
+          "devicon-typescript-plain"
+        ],
+        "functionalities": [
+          "Real-time notifications",
+          "Real-time news feed",
+          "Likes, Comments in real-time",
+          "Chats in real-time",
+          "Secure JWT authentication",
+          "Real-time messaging",
+          "Create and save posts",
+          "Friends, requests, followers",
+          "Clean and scalable code",
+          "Clean and user-friendly UI"
+        ]
+      },
+      "project2": {
+        "name": "Jagarv",
+        "description": "Real-time social network powered by Express.js, Socket.IO, Vue.js, and MySQL. Frontend and backend using TypeScript.",
+        "techStack": [
+          "devicon-java-plain",
+          "devicon-spring-plain",
+          "devicon-angularjs-plain",
+          "devicon-postgresql-plain",
+          "devicon-docker-plain",
+          "devicon-typescript-plain"
+        ],
+        "functionalities": [
+          "Real-time notifications",
+          "Real-time news feed",
+          "Likes, Comments in real-time",
+          "Chats in real-time",
+          "Secure JWT authentication",
+          "Real-time messaging",
+          "Create and save posts",
+          "Friends, requests, followers",
+          "Clean and scalable code",
+          "Clean and user-friendly UI"
+        ]
+      },
+      "project3": {
+        "name": "Sofii",
+        "description": "Real-time social network powered by Express.js, Socket.IO, Vue.js, and MySQL. Frontend and backend using TypeScript.",
+        "techStack": [
+          "devicon-java-plain",
+          "devicon-spring-plain",
+          "devicon-angularjs-plain",
+          "devicon-postgresql-plain",
+          "devicon-docker-plain",
+          "devicon-typescript-plain"
+        ],
+        "functionalities": [
+          "Real-time notifications",
+          "Real-time news feed",
+          "Likes, Comments in real-time",
+          "Chats in real-time",
+          "Secure JWT authentication",
+          "Real-time messaging",
+          "Create and save posts",
+          "Friends, requests, followers",
+          "Clean and scalable code",
+          "Clean and user-friendly UI"
+        ]
+      }
+    },
+    "test": "Hello"
+  }
+  

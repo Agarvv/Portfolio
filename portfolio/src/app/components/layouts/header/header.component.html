@@ -1,13 +1,11 @@
-
 <header>
-    <div class="logo">
-      <h1>Agarv Caslu</h1>
-    </div>
-    <div id="language-selector">
-      <span class="flag-icon flag-icon-us"></span>
-      <span class="flag-icon flag-icon-es"></span>
-      <span class="flag-icon flag-icon-fr"></span>
-      <span class="flag-icon flag-icon-de"></span>
-    </div>
-  </header>
-  
+  <div class="logo">
+    <h1>Agarv Caslu</h1>
+  </div>
+  <div id="language-selector">
+    <span class="flag-icon flag-icon-us" (click)="changeLanguage('en')"></span>
+    <span class="flag-icon flag-icon-es" (click)="changeLanguage('es')"></span>
+    <span class="flag-icon flag-icon-fr" (click)="changeLanguage('fr')"></span>
+    <span class="flag-icon flag-icon-de" (click)="changeLanguage('de')"></span>
+  </div>
+</header>

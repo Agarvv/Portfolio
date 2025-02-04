@@ -8,15 +8,16 @@
     <div class="p-des">
         <p>{{ description }}</p>
 
-        <div *ngFor="let tech of techStack" class="tech-stack">
-            <i [class]="tech"></i> 
+        <div class="tech-stack">
+            <div *ngFor="let tech of techStack">
+                <i [class]="tech"></i> 
+            </div>
         </div>
-
 
         <div *ngFor="let func of functionalities" class="funcs">
             <div class="func">
                 <i class="fas fa-check-circle"></i>
-                <span>{{ func }}</span>
+                <span>{{ func | translate }}</span> 
             </div>
         </div>
 

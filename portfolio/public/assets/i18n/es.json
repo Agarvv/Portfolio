@@ -1,0 +1,84 @@
+{
+    "banner": {
+      "title": "Calidad, Precisión, Elegancia, Mi Palabra.",
+      "description": "Soy Agarv Caslu, desarrollador Full-Stack. Transformo cada proyecto en una historia de éxito.",
+      "precision": "La precisión es mi obsesión. No hago las cosas solo por hacerlas, siempre busco lo mejor.",
+      "button": "Mis Proyectos"
+    },
+    "projects": {
+      "header": "Algunas de mis Obras Maestras de la <strong class=\"some-strong\">Ingeniería</strong>:",
+      "project1": {
+        "name": "Sofii",
+        "description": "Red social en tiempo real alimentada por Express.js, Socket.IO, Vue.js y MySQL. Frontend y backend utilizando TypeScript.",
+        "techStack": [
+          "devicon-nodejs-plain",
+          "devicon-vuejs-plain",
+          "devicon-mysql-plain",
+          "devicon-socketio-plain",
+          "devicon-typescript-plain"
+        ],
+        "functionalities": [
+          "Notificaciones en tiempo real",
+          "Noticias en tiempo real",
+          "Likes, Comentarios en tiempo real",
+          "Chats en tiempo real",
+          "Autenticación segura JWT",
+          "Mensajería en tiempo real",
+          "Crear y guardar publicaciones",
+          "Amigos, solicitudes, seguidores",
+          "Código limpio y escalable",
+          "Interfaz limpia y amigable"
+        ]
+      },
+      "project2": {
+        "name": "Jagarv",
+        "description": "Red social en tiempo real alimentada por Express.js, Socket.IO, Vue.js y MySQL. Frontend y backend utilizando TypeScript.",
+        "techStack": [
+          "devicon-java-plain",
+          "devicon-spring-plain",
+          "devicon-angularjs-plain",
+          "devicon-postgresql-plain",
+          "devicon-docker-plain",
+          "devicon-typescript-plain"
+        ],
+        "functionalities": [
+          "Notificaciones en tiempo real",
+          "Noticias en tiempo real",
+          "Likes, Comentarios en tiempo real",
+          "Chats en tiempo real",
+          "Autenticación segura JWT",
+          "Mensajería en tiempo real",
+          "Crear y guardar publicaciones",
+          "Amigos, solicitudes, seguidores",
+          "Código limpio y escalable",
+          "Interfaz limpia y amigable"
+        ]
+      },
+      "project3": {
+        "name": "Sofii",
+        "description": "Red social en tiempo real alimentada por Express.js, Socket.IO, Vue.js y MySQL. Frontend y backend utilizando TypeScript.",
+        "techStack": [
+          "devicon-java-plain",
+          "devicon-spring-plain",
+          "devicon-angularjs-plain",
+          "devicon-postgresql-plain",
+          "devicon-docker-plain",
+          "devicon-typescript-plain"
+        ],
+        "functionalities": [
+          "Notificaciones en tiempo real",
+          "Noticias en tiempo real",
+          "Likes, Comentarios en tiempo real",
+          "Chats en tiempo real",
+          "Autenticación segura JWT",
+          "Mensajería en tiempo real",
+          "Crear y guardar publicaciones",
+          "Amigos, solicitudes, seguidores",
+          "Código limpio y escalable",
+          "Interfaz limpia y amigable"
+        ]
+      }
+    },
+    "test": "Hola"
+  }
+  
