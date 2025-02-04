@@ -14,12 +14,18 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideHttpClient(),
     provideRouter(routes),
-    TranslateService,
     {
       provide: TranslateLoader,
       useFactory: HttpLoaderFactory,
       deps: [HttpClient],
     },
     HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
   ]
 };
