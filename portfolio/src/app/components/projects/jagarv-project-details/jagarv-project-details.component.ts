@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-jagarv-project-details',
   standalone: true,
-  imports: [ProjectDetailComponent, TranslateModule, CommonModule]
+  imports: [ProjectDetailComponent, TranslateModule, CommonModule],
   templateUrl: './jagarv-project-details.component.html',
   styleUrl: './jagarv-project-details.component.css'
 })
