@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
-import emailjs from 'emailjs-com';
+import * as emailjs from 'emailjs-com';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact-form',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, TranslateModule],
   templateUrl: './contact-form.component.html',
   styleUrls: ['./contact-form.component.css']
 })
@@ -15,7 +16,7 @@ export class ContactFormComponent {
     successMessage = '';
     errorMessage = '';
 
-    constructor(private fb: FormBuilder) {
+    constructor(private fb: FormBuilder, public translate: TranslateService) {
         this.form = this.fb.group({
             from_name: ['', [Validators.required, Validators.minLength(3)]],
             from_email: ['', [Validators.required, Validators.email]],
@@ -39,10 +40,13 @@ export class ContactFormComponent {
             this.form.value,
             'XyndWu2bU3PKnrCip'
         ).then(() => {
-            this.successMessage = '¡Correo enviado con éxito!';
-            this.form.reset();
+            this.translate.get('contactForm.successMessage').subscribe(msg => {
+                this.successMessage = msg;
+            });
         }).catch(err => {
-            this.errorMessage = 'Error al enviar el correo. Inténtalo de nuevo.';
+            this.translate.get('contactForm.errorMessage').subscribe(msg => {
+                this.errorMessage = msg;
+            });
             console.error("Error:", err);
         }).finally(() => {
             this.loading = false;

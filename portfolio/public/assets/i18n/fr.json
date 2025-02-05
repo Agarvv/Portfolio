@@ -135,5 +135,18 @@
         "searchPage": "C'est la page de recherche, où l'utilisateur peut rechercher des voitures en fonction du titre, du modèle ou de la marque pour trouver rapidement ce qu'il recherche."
     }
   },
-  "test": "Bonjour"
+  "test": "Bonjour",
+  "contactForm": {
+      "contactFormHeader": "Donne-moi un Coup de Fil",
+      "nameLabel": "Votre Nom",
+      "emailLabel": "Votre Email",
+      "messageLabel": "Votre Message",
+      "loadingMessage": "Un Instant...",
+      "errorMessage": "Oups ! Une Erreur s'est Produite...",
+      "successMessage": "Email Envoyé.",
+      "sendMessage": "Envoyer",
+      "nameError": "Doit contenir au moins 3 caractères",
+      "emailError": "Entrez un email valide.",
+      "messageError": "Doit contenir au moins 10 caractères"
+}
 }

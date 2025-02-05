@@ -139,5 +139,18 @@
 
 
 
-  }
+  },
+  "contactForm": {
+      "contactFormHeader": "Give Me a Ring",
+      "nameLabel": "Your Name",
+      "emailLabel": "Your Email",
+      "messageLabel": "Your Message",
+      "loadingMessage": "One Moment...",
+      "errorMessage": "Oops! An Error Occurred...",
+      "successMessage": "Email Sent.",
+      "sendMessage": "Send",
+      "nameError": "Must be at least 3 characters",
+      "emailError": "Enter a valid email.",
+      "messageError": "Must contain at least 10 characters"
+}
 }

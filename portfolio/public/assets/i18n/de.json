@@ -138,5 +138,18 @@
     }
 
 
-  }
+  }, 
+  "contactForm": {
+      "contactFormHeader": "Gib mir ein Zeichen",
+      "nameLabel": "Ihr Name",
+      "emailLabel": "Ihre E-Mail",
+      "messageLabel": "Ihre Nachricht",
+      "loadingMessage": "Einen Moment...",
+      "errorMessage": "Hoppla! Ein Fehler ist aufgetreten...",
+      "successMessage": "E-Mail Gesendet.",
+      "sendMessage": "Senden",
+      "nameError": "Muss mindestens 3 Zeichen enthalten",
+      "emailError": "Geben Sie eine gültige E-Mail ein.",
+      "messageError": "Muss mindestens 10 Zeichen enthalten"
+}
 }

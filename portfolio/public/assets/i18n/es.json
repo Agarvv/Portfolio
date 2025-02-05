@@ -135,5 +135,18 @@
         "searchPageDetails": "Pagina de Busqueda",
         "searchPage": "Esta es la página de búsqueda, donde el usuario puede buscar los coches según el título, modelo o marca para encontrar rápidamente lo que está buscando."
     }
+  },
+  "contactForm": {
+      "contactFormHeader": "Dame Un Toque",
+      "nameLabel": "Su Nombre",
+      "emailLabel": "Su Correo",
+      "messageLabel": "Su Mensaje",
+      "loadingMessage": "Un Momento...",
+      "errorMessage": "¡Uy¡ Ha ocurrido Un Error...",
+      "successMessage": "Email Enviado.",
+      "sendMessage": "Enviar",
+      "nameError": "Debe tener al menos 3 caracteres",
+      "emailError": "Ingrese un correo válido.",
+      "messageError": "Debe contener al menos 10 caracteres"
   }
 }
