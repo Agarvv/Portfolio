@@ -127,7 +127,7 @@
         "chatsPageDetail": "Pagina de Chats",
         "chatsPage": "Esta es la página de chats, donde se muestran todas las conversaciones del usuario dentro de la aplicación. Al seleccionar un chat, el usuario será redirigido a la pagina de chat, donde podrá enviar y recibir mensajes en tiempo real.",
         "chatPageDetail": "Pagina de Chat",
-        "chatPage": "Esta es la página de chat, donde el usuario puede visualizar, enviar y recibir mensajes en tiempo real, con soporte para contenido multimedia, como imágenes, audios y videos. un espacio ideal para negociar detalles como el precio del vehículo directamente con el vendedor."
+        "chatPage": "Esta es la página de chat, donde el usuario puede visualizar, enviar y recibir mensajes en tiempo real, con soporte para contenido multimedia, como imágenes, audios y videos. un espacio ideal para negociar detalles como el precio del vehículo directamente con el vendedor.",
         "favoritesPageDetail": "Pagina de Favoritos",
         "favoritesPage": "Esta es la página de coches favoritos, donde el usuario puede acceder y gestionar la lista de coches que ha marcado como favoritos para revisarlos posteriormente.",
         "profilePageDetails": "Pagina de Perfil",
