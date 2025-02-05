@@ -116,7 +116,27 @@
     "wishlistPage": "This is the wishlist page, where users can manage the products they wish to purchase.",
     "searchPageDetails": "Search Page",
     "searchPage": "This is the search page, where users can browse through the application's products and apply filters to refine their search."
-}
+},
+
+    "lebagarv": {
+        "videoDetail": "Lebagarv Functioning Video",
+        "videoDescription": "Unfortunately, I have not been able to upload Lebagarv to a server. However, I have prepared a video that showcases the key functionalities of the application in action.",
+        "homepageDetail": "Homepage",
+        "homepage": "This is the homepage, where the user can explore a variety of car listings from various fictitious brands. Additionally, the user has the option to navigate through different sections of the application.",
+        "carPageDetail": "Car Listing Page",
+        "carPage": "This is the car listing details page, where the user can view images of the car and access key information such as mileage, color, and technical specifications. Additionally, there is the option to contact the seller through the integrated chat.",
+        "chatsPageDetail": "Chats Page",
+        "chatsPage": "This is the chats page, where all the user's conversations within the application are displayed. By selecting a chat, the user will be redirected to the chat page, where they can send and receive messages in real-time.",
+        "chatPageDetail": "Chat Page",
+        "chatPage": "This is the chat page, where the user can view, send, and receive messages in real-time, with support for multimedia content such as images, audio, and videos. An ideal space to negotiate details such as the price of the vehicle directly with the seller.",
+        "favoritesPageDetail": "Favorites Page",
+        "favoritesPage": "This is the favorites page, where the user can access and manage the list of cars they have marked as favorites for later review.",
+        "profilePageDetails": "Profile Page",
+        "profilePage": "This is the profile page, where the user can view their vehicles or those of others. If accessing their own profile, the user will have the option to update their profile picture and account banner.",
+        "searchPageDetails": "Search Page",
+        "searchPage": "This is the search page, where the user can search for cars based on title, model, or brand to quickly find what they are looking for."
+    }
+
 
 
   }

@@ -116,6 +116,24 @@
         "wishlistPage": "Esta es la página de la lista de deseos del usuario, donde puede gestionar los productos que desea adquirir.",
         "searchPageDetails": "Pagina De Busqueda",
         "searchPage": "Esta es la página de búsqueda, donde el usuario puede explorar los productos de la aplicación y aplicar filtros para refinar su búsqueda."
+    },
+    "lebagarv": {
+        "videoDetail": "Video de Lebagarv Funcionando",
+        "videoDescription": "Desafortunadamente, no he podido subir Lebagarv a un servidor. Sin embargo, he preparado un video en el que se muestran las funcionalidades más importantes de la aplicación en acción.",
+        "homepageDetail": "Pagina Principal",
+        "homepage": "Esta es la página principal, donde el usuario puede explorar una variedad de anuncios de coches de diversas marcas ficticias. Además, cuenta con la posibilidad de navegar por las distintas secciones de la aplicación.",
+        "carPageDetail": "Pagina De Anuncio",
+        "carPage": "Esta es la página de detalles del anuncio, donde el usuario puede visualizar imágenes del coche y acceder a información clave, como kilometraje, color y especificaciones técnicas. Además, se ofrece la opción de contactar al vendedor a través del chat integrado",
+        "chatsPageDetail": "Pagina de Chats",
+        "chatsPage": "Esta es la página de chats, donde se muestran todas las conversaciones del usuario dentro de la aplicación. Al seleccionar un chat, el usuario será redirigido a la pagina de chat, donde podrá enviar y recibir mensajes en tiempo real.",
+        "chatPageDetail": "Pagina de Chat",
+        "chatPage": "Esta es la página de chat, donde el usuario puede visualizar, enviar y recibir mensajes en tiempo real, con soporte para contenido multimedia, como imágenes, audios y videos. un espacio ideal para negociar detalles como el precio del vehículo directamente con el vendedor."
+        "favoritesPageDetail": "Pagina de Favoritos",
+        "favoritesPage": "Esta es la página de coches favoritos, donde el usuario puede acceder y gestionar la lista de coches que ha marcado como favoritos para revisarlos posteriormente.",
+        "profilePageDetails": "Pagina de Perfil",
+        "profilePage": "Esta es la página de perfil, donde el usuario puede visualizar sus vehículos o los de otros. Si está accediendo a su propio perfil, tendrá la opción de actualizar su foto de perfil y el banner de su cuenta.",
+        "searchPageDetails": "Pagina de Busqueda",
+        "searchPage": "Esta es la página de búsqueda, donde el usuario puede buscar los coches según el título, modelo o marca para encontrar rápidamente lo que está buscando."
     }
   }
 }

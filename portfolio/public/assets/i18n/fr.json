@@ -115,7 +115,25 @@
     "wishlistPage": "Ceci est la page de la liste de souhaits, où l’utilisateur peut gérer les produits qu’il souhaite acheter.",
     "searchPageDetails": "Page de Recherche",
     "searchPage": "Ceci est la page de recherche, où l’utilisateur peut parcourir les produits de l’application et appliquer des filtres pour affiner sa recherche."
-}
+},
+    "lebagarv": {
+        "videoDetail": "Vidéo de fonctionnement de Lebagarv",
+        "videoDescription": "Malheureusement, je n'ai pas pu télécharger Lebagarv sur un serveur. Cependant, j'ai préparé une vidéo qui présente les fonctionnalités clés de l'application en action.",
+        "homepageDetail": "Page d'accueil",
+        "homepage": "C'est la page d'accueil, où l'utilisateur peut explorer une variété d'annonces de voitures de différentes marques fictives. De plus, l'utilisateur a la possibilité de naviguer dans les différentes sections de l'application.",
+        "carPageDetail": "Page de l'annonce de voiture",
+        "carPage": "C'est la page des détails de l'annonce, où l'utilisateur peut voir des images de la voiture et accéder à des informations clés telles que le kilométrage, la couleur et les spécifications techniques. De plus, il existe la possibilité de contacter le vendeur via le chat intégré.",
+        "chatsPageDetail": "Page des Chats",
+        "chatsPage": "C'est la page des chats, où toutes les conversations de l'utilisateur au sein de l'application sont affichées. En sélectionnant un chat, l'utilisateur sera redirigé vers la page de chat, où il pourra envoyer et recevoir des messages en temps réel.",
+        "chatPageDetail": "Page de Chat",
+        "chatPage": "C'est la page de chat, où l'utilisateur peut voir, envoyer et recevoir des messages en temps réel, avec prise en charge de contenus multimédia tels que des images, des audios et des vidéos. Un espace idéal pour négocier des détails comme le prix du véhicule directement avec le vendeur.",
+        "favoritesPageDetail": "Page des Favoris",
+        "favoritesPage": "C'est la page des favoris, où l'utilisateur peut accéder et gérer la liste des voitures qu'il a marquées comme favorites pour une révision ultérieure.",
+        "profilePageDetails": "Page de Profil",
+        "profilePage": "C'est la page de profil, où l'utilisateur peut voir ses véhicules ou ceux des autres. S'il accède à son propre profil, l'utilisateur aura la possibilité de mettre à jour sa photo de profil et sa bannière de compte.",
+        "searchPageDetails": "Page de Recherche",
+        "searchPage": "C'est la page de recherche, où l'utilisateur peut rechercher des voitures en fonction du titre, du modèle ou de la marque pour trouver rapidement ce qu'il recherche."
+    }
   },
   "test": "Bonjour"
 }

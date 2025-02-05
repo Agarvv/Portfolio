@@ -3,6 +3,7 @@ import { MainLayoutComponent } from './components/layouts/main-layout/main-layou
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { SofiiProjectDetailsComponent } from './components/projects/sofii-project-details/sofii-project-details.component' 
 import { JagarvProjectDetailsComponent } from './components/projects/jagarv-project-details/jagarv-project-details.component'
+import { LebagarvProjectDetailsComponent } from './components/projects/lebagarv-project-details/lebagarv-project-details.component'
 
 export const routes: Routes = [
     {
@@ -20,7 +21,12 @@ export const routes: Routes = [
         {
             path: 'jagarv',
             component: JagarvProjectDetailsComponent
+        },
+        {
+            path: 'lebagarv',
+            component: LebagarvProjectDetailsComponent
         }
       ]
     }
 ];
+ 

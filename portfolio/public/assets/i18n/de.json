@@ -116,7 +116,26 @@
     "wishlistPage": "Dies ist die Wunschliste-Seite, auf der Benutzer die Produkte verwalten können, die sie kaufen möchten.",
     "searchPageDetails": "Suchseite",
     "searchPage": "Dies ist die Suchseite, auf der Benutzer die Produkte der Anwendung durchsuchen und Filter anwenden können, um ihre Suche zu verfeinern."
-}
+},
+
+    "lebagarv": {
+        "videoDetail": "Lebagarv Funktionsvideo",
+        "videoDescription": "Leider konnte ich Lebagarv nicht auf einen Server hochladen. Ich habe jedoch ein Video vorbereitet, das die wichtigsten Funktionen der Anwendung in Aktion zeigt.",
+        "homepageDetail": "Startseite",
+        "homepage": "Dies ist die Startseite, auf der der Benutzer eine Vielzahl von Fahrzeuganzeigen verschiedener fiktiver Marken durchsuchen kann. Darüber hinaus hat der Benutzer die Möglichkeit, durch die verschiedenen Abschnitte der Anwendung zu navigieren.",
+        "carPageDetail": "Fahrzeuganzeigen-Seite",
+        "carPage": "Dies ist die Detailseite der Fahrzeuganzeige, auf der der Benutzer Bilder des Fahrzeugs anzeigen und auf wichtige Informationen wie Kilometerstand, Farbe und technische Spezifikationen zugreifen kann. Darüber hinaus besteht die Möglichkeit, den Verkäufer über den integrierten Chat zu kontaktieren.",
+        "chatsPageDetail": "Chats-Seite",
+        "chatsPage": "Dies ist die Seite für Chats, auf der alle Gespräche des Benutzers innerhalb der Anwendung angezeigt werden. Wenn der Benutzer einen Chat auswählt, wird er zur Chat-Seite weitergeleitet, auf der er Nachrichten in Echtzeit senden und empfangen kann.",
+        "chatPageDetail": "Chat-Seite",
+        "chatPage": "Dies ist die Chat-Seite, auf der der Benutzer Nachrichten in Echtzeit anzeigen, senden und empfangen kann, mit Unterstützung für multimediale Inhalte wie Bilder, Audios und Videos. Ein idealer Raum, um Details wie den Preis des Fahrzeugs direkt mit dem Verkäufer zu verhandeln.",
+        "favoritesPageDetail": "Favoriten-Seite",
+        "favoritesPage": "Dies ist die Seite für Favoriten, auf der der Benutzer auf die Liste der Fahrzeuge zugreifen und diese verwalten kann, die er als Favoriten markiert hat, um sie später zu überprüfen.",
+        "profilePageDetails": "Profil-Seite",
+        "profilePage": "Dies ist die Profil-Seite, auf der der Benutzer seine Fahrzeuge oder die anderer sehen kann. Wenn der Benutzer auf sein eigenes Profil zugreift, hat er die Möglichkeit, sein Profilbild und Banner zu aktualisieren.",
+        "searchPageDetails": "Such-Seite",
+        "searchPage": "Dies ist die Such-Seite, auf der der Benutzer Fahrzeuge nach Titel, Modell oder Marke suchen kann, um schnell das zu finden, wonach er sucht."
+    }
 
 
   }
