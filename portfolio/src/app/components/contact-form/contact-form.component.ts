@@ -40,9 +40,7 @@ export class ContactFormComponent {
             this.form.value,
             'XyndWu2bU3PKnrCip'
         ).then(() => {
-            this.translate.get('contactForm.successMessage').subscribe(msg => {
-                this.successMessage = msg;
-            });
+            this.form.reset()
         }).catch(err => {
             this.translate.get('contactForm.errorMessage').subscribe(msg => {
                 this.errorMessage = msg;
