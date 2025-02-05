@@ -80,29 +80,22 @@
   "test": "Hello",
   "projectDetails": {
     "sofii": {
-        "videoDetail": "Sofii Functioning Video",
-        "videoDescription": "Unfortunately, I have been unable to upload Sofii to a server. However, I have prepared a video that showcases the most important features of the application in action.",
-        
-        "homepageDetail": "Homepage",
-        "homepageDescription": "This section presents a screenshot of the application's main page, where most real-time events take place, such as notifications, the real-time feed, and user interactions with posts (e.g., likes, saved posts). From this page, users can engage with posts through likes, save them, or visit other users' profiles.",
-        
-        "chatDetail": "Chat Page",
-        "chatPage": "This section displays the chat page, where users can communicate in real-time and view the activity status of their contacts (active/inactive).",
-        
-        "profileDetail": "Profile Page",
-        "profilePage": "This is the user's profile page, where they can send friend requests, follow other users, chat with them, and view relevant information such as personal details and posts.",
-        
-        "friendsDetail": "Friends Page",
-        "friendsPage": "This is the friends page, where users can review their friends list, manage friend requests, and accept or reject invitations.",
-        
-        "notificationsDetails": "Notifications Page",
-        "notificationsPage": "This is the notifications page, where users can check their notifications and manage their deletion as they see fit.",
-        
-        "searchDetails": "Search Page",
-        "searchPage": "This is the search page, where users can explore other profiles or posts and apply filters according to their preferences.",
-        
-        "savedsDetails": "Saved Posts Page",
-        "savedsPage": "This is the saved posts page, where users can access the posts they have saved and interact with them."
+      "videoDetail": "Sofii Functioning Video",
+      "videoDescription": "Unfortunately, I have been unable to upload Sofii to a server. However, I have prepared a video that showcases the most important features of the application in action.",
+      "homepageDetail": "Homepage",
+      "homepageDescription": "This section presents a screenshot of the application's main page, where most real-time events take place, such as notifications, the real-time feed, and user interactions with posts (e.g., likes, saved posts). From this page, users can engage with posts through likes, save them, or visit other users' profiles.",
+      "chatDetail": "Chat Page",
+      "chatPage": "This section displays the chat page, where users can communicate in real-time and view the activity status of their contacts (active/inactive).",
+      "profileDetails": "Profile Page",
+      "profilePage": "This is the user's profile page, where they can send friend requests, follow other users, chat with them, and view relevant information such as personal details and posts.",
+      "friendsDetail": "Friends Page",
+      "friendsPage": "This is the friends page, where users can review their friends list, manage friend requests, and accept or reject invitations.",
+      "notificationsDetails": "Notifications Page",
+      "notificationsPage": "This is the notifications page, where users can check their notifications and manage their deletion as they see fit.",
+      "searchDetails": "Search Page",
+      "searchPage": "This is the search page, where users can explore other profiles or posts and apply filters according to their preferences.",
+      "savedsDetail": "Saved Posts Page",
+      "savedsPage": "This is the saved posts page, where users can access the posts they have saved and interact with them."
     }
-}
+  }
 }

@@ -77,32 +77,25 @@
       ]
     }
   },
-   "projectDetails": {
+  "projectDetails": {
     "sofii": {
-        "videoDetail": "Vidéo de Fonctionnement de Sofii", 
-        "videoDescription": "Malheureusement, je n'ai pas pu publier Sofii sur un serveur. Cependant, j'ai préparé une vidéo qui montre les fonctionnalités les plus importantes de l'application en action.",
-        
-        "homepageDetail": "Page d'Accueil",
-        "homepageDescription": "Cette section présente une capture d'écran de la page principale de l'application, où se déroulent la plupart des événements en temps réel, tels que les notifications, le fil d'publications en temps réel et les interactions des utilisateurs avec les publications (par exemple, les likes, les publications enregistrées). Depuis cette page, l'utilisateur peut interagir avec les publications en aimant, en les enregistrant ou en accédant aux profils d'autres utilisateurs.",
-        
-        "chatDetail": "Page de Chat",
-        "chatPage": "Cette section montre la page de chat, où les utilisateurs peuvent communiquer en temps réel et voir l'état d'activité de leurs contacts (actif/inactif).",
-        
-        "homepageDetail": "Page de Profil",
-        "profilePage": "Voici la page de profil de l'utilisateur, à partir de laquelle il peut envoyer des demandes d'amis, suivre d'autres utilisateurs, discuter avec eux et consulter des informations pertinentes, telles que des données personnelles et des publications.",
-        
-        "friendsDetail": "Page d'Amis",
-        "friendsPage": "Voici la page des amis, où l'utilisateur peut consulter sa liste d'amis, gérer les demandes d'amis et accepter ou rejeter des invitations.",
-        
-        "notificationsDetails": "Page de Notifications",
-        "notificationsPage": "Voici la page des notifications, où les utilisateurs peuvent consulter leurs notifications et gérer leur suppression selon leurs préférences.",
-        
-        "searchDetails": "Page de Recherche",
-        "searchPage": "Voici la page de recherche, où les utilisateurs peuvent explorer d'autres profils ou publications et appliquer des filtres en fonction de leurs préférences.",
-        
-        "savedsDetails": "Page des Publications Enregistrées",
-        "savedsPage": "Voici la page des publications enregistrées, où les utilisateurs peuvent accéder aux publications qu'ils ont enregistrées et interagir avec elles."
+      "videoDetail": "Vidéo de Fonctionnement de Sofii",
+      "videoDescription": "Malheureusement, je n'ai pas pu publier Sofii sur un serveur. Cependant, j'ai préparé une vidéo qui montre les fonctionnalités les plus importantes de l'application en action.",
+      "homepageDetail": "Page d'Accueil",
+      "homepageDescription": "Cette section présente une capture d'écran de la page principale de l'application, où se déroulent la plupart des événements en temps réel, tels que les notifications, le fil d'publications en temps réel et les interactions des utilisateurs avec les publications (par exemple, les likes, les publications enregistrées). Depuis cette page, l'utilisateur peut interagir avec les publications en aimant, en les enregistrant ou en accédant aux profils d'autres utilisateurs.",
+      "chatDetail": "Page de Chat",
+      "chatPage": "Cette section montre la page de chat, où les utilisateurs peuvent communiquer en temps réel et voir l'état d'activité de leurs contacts (actif/inactif).",
+      "profileDetails": "Page de Profil",
+      "profilePage": "Voici la page de profil de l'utilisateur, à partir de laquelle il peut envoyer des demandes d'amis, suivre d'autres utilisateurs, discuter avec eux et consulter des informations pertinentes, telles que des données personnelles et des publications.",
+      "friendsDetail": "Page d'Amis",
+      "friendsPage": "Voici la page des amis, où l'utilisateur peut consulter sa liste d'amis, gérer les demandes d'amis et accepter ou rejeter des invitations.",
+      "notificationsDetails": "Page de Notifications",
+      "notificationsPage": "Voici la page des notifications, où les utilisateurs peuvent consulter leurs notifications et gérer leur suppression selon leurs préférences.",
+      "searchDetails": "Page de Recherche",
+      "searchPage": "Voici la page de recherche, où les utilisateurs peuvent explorer d'autres profils ou publications et appliquer des filtres en fonction de leurs préférences.",
+      "savedsDetail": "Page des Publications Enregistrées",
+      "savedsPage": "Voici la page des publications enregistrées, où les utilisateurs peuvent accéder aux publications qu'ils ont enregistrées et interagir avec elles."
     }
-},
+  },
   "test": "Bonjour"
 }
