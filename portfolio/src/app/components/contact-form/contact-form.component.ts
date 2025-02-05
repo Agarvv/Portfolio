@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
-
-import emailjs from 'emailjs-com';
+import * as emailjs from 'emailjs-browser';
 
 
 
