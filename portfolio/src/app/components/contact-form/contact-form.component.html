@@ -1,6 +1,6 @@
 <div class="form-container">
-    <h2>{{ 'contactForm.contactFormHeader' | translate }}</h2>
     <form [formGroup]="form" (ngSubmit)="sendMail()">
+        <h2>{{ 'contactForm.contactFormHeader' | translate }}</h2>
         <div class="form-group">
             <label for="from_name">{{ 'contactForm.nameLabel' | translate }}</label>
             <input type="text" id="from_name" formControlName="from_name">
