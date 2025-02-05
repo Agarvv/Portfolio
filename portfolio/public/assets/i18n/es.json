@@ -96,6 +96,26 @@
       "searchPage": "Esta es la página de búsqueda, donde los usuarios pueden explorar otros perfiles o publicaciones, y aplicar filtros según sus preferencias.",
       "savedsDetail": "Página de Guardados",
       "savedsPage": "Esta es la página de publicaciones guardadas, donde los usuarios pueden acceder a las publicaciones que han guardado y interactuar con ellas."
+    },
+    jagarv: {
+        "videoDetail": "Video de Jagarv Funcionando",
+        "videoDescription": "Desafortunadamente, no he podido subir Jagarv a un servidor. Sin embargo, he preparado un video en el que se muestran las funcionalidades más importantes de la aplicación en acción.",
+        "homepageDetail": "Pagina Principal",
+        "homepage": "Esta es la página principal de Jagarv, donde el usuario puede seleccionar entre diversas categorías de productos o explorar otras secciones de la aplicación",
+        "adminDashboardDetails": "Panel De Administracion",
+        "adminDashboard": "Este es el panel de administración, donde el administrador puede consultar información clave como los usuarios registrados hoy, las ganancias diarias, los pedidos recientes y las ganancias totales de la empresa. Además, se incluye un gráfico interactivo de los pedidos.",
+        "adminUsersDetails": "Administracion de Usuarios",
+        "adminUsers": "Esta es la página de administración de usuarios, donde se pueden visualizar todos los datos de los usuarios de la aplicación y gestionar su estado, incluyendo opciones para banear o desbloquear cuentas.",
+        "adminPostsDetails": "Administracion De Productos",
+        "adminPosts": "Esta es la página de administración de productos, donde se muestran todos los artículos disponibles en la aplicación. Además, se ofrecen opciones para editarlos, eliminarlos, visualizarlos o destacarlos.",
+        "adminOrdersDetails": "Administracion De Pedidos",
+        "adminOrders": "Esta es la página de administración de pedidos, donde se gestionan los pedidos realizados en la aplicación. Se puede actualizar el estado de los pedidos para mantener informados a los usuarios, por ejemplo, con estados como 'En trámite', 'Ha llegado' o 'Preparando'.",
+        "cartPageDetails": "Carrito De Compras",
+        "cartPage": "Esta es la página del carrito de compras, donde el usuario puede gestionar los productos, eliminar artículos, finalizar la compra utilizando o no un cupón de descuento y elegir su método de pago, ya sea PayPal o Stripe.",
+        "wishlistPageDetails": "Lista De Deseos",
+        "wishlistPage": "Esta es la página de la lista de deseos del usuario, donde puede gestionar los productos que desea adquirir.",
+        "searchPageDetails": "Pagina De Busqueda",
+        "searchPage": "Esta es la página de búsqueda, donde el usuario puede explorar los productos de la aplicación y aplicar filtros para refinar su búsqueda."
     }
   }
 }

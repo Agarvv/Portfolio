@@ -96,6 +96,28 @@
       "searchPage": "This is the search page, where users can explore other profiles or posts and apply filters according to their preferences.",
       "savedsDetail": "Saved Posts Page",
       "savedsPage": "This is the saved posts page, where users can access the posts they have saved and interact with them."
-    }
+    },
+    "jagarv": {
+    "videoDetail": "Jagarv Functionality Video",
+    "videoDescription": "Unfortunately, I have not been able to upload Jagarv to a server. However, I have prepared a video showcasing the application's key functionalities in action.",
+    "homepageDetail": "Homepage",
+    "homepage": "This is the main page of Jagarv, where users can select from various product categories or explore other sections of the application.",
+    "adminDashboardDetails": "Admin Dashboard",
+    "adminDashboard": "This is the administration panel, where the administrator can access key information such as today's registered users, daily earnings, recent orders, and the company's total revenue. Additionally, an interactive order graph is included.",
+    "adminUsersDetails": "User Management",
+    "adminUsers": "This is the user management page, where all user data can be viewed and managed, including options to ban or unban accounts.",
+    "adminPostsDetails": "Product Management",
+    "adminPosts": "This is the product management page, where all available items in the application are displayed. Additionally, users can edit, delete, view, or feature products.",
+    "adminOrdersDetails": "Order Management",
+    "adminOrders": "This is the order management page, where all orders placed in the application can be managed. Order statuses can be updated to keep users informed, with statuses such as 'In Process,' 'Delivered,' or 'Preparing'.",
+    "cartPageDetails": "Shopping Cart",
+    "cartPage": "This is the shopping cart page, where users can manage their selected products, remove items, complete their purchase with or without a discount coupon, and choose their payment method, either PayPal or Stripe.",
+    "wishlistPageDetails": "Wishlist",
+    "wishlistPage": "This is the wishlist page, where users can manage the products they wish to purchase.",
+    "searchPageDetails": "Search Page",
+    "searchPage": "This is the search page, where users can browse through the application's products and apply filters to refine their search."
+}
+
+
   }
 }

@@ -95,7 +95,27 @@
       "searchPage": "Voici la page de recherche, où les utilisateurs peuvent explorer d'autres profils ou publications et appliquer des filtres en fonction de leurs préférences.",
       "savedsDetail": "Page des Publications Enregistrées",
       "savedsPage": "Voici la page des publications enregistrées, où les utilisateurs peuvent accéder aux publications qu'ils ont enregistrées et interagir avec elles."
-    }
+    },
+    "jagarv": {
+    "videoDetail": "Vidéo de Fonctionnement de Jagarv",
+    "videoDescription": "Malheureusement, je n’ai pas pu héberger Jagarv sur un serveur. Cependant, j’ai préparé une vidéo présentant les principales fonctionnalités de l’application en action.",
+    "homepageDetail": "Page d’Accueil",
+    "homepage": "Ceci est la page principale de Jagarv, où l’utilisateur peut choisir parmi différentes catégories de produits ou explorer d’autres sections de l’application.",
+    "adminDashboardDetails": "Tableau de Bord Administratif",
+    "adminDashboard": "Ceci est le tableau de bord d'administration, où l’administrateur peut consulter des informations essentielles telles que les utilisateurs enregistrés aujourd’hui, les revenus quotidiens, les commandes récentes et le chiffre d’affaires total de l’entreprise. Un graphique interactif des commandes est également inclus.",
+    "adminUsersDetails": "Gestion des Utilisateurs",
+    "adminUsers": "Ceci est la page de gestion des utilisateurs, où toutes les données des utilisateurs peuvent être consultées et gérées, y compris les options pour bannir ou débannir des comptes.",
+    "adminPostsDetails": "Gestion des Produits",
+    "adminPosts": "Ceci est la page de gestion des produits, où tous les articles disponibles dans l’application sont affichés. Il est également possible de les modifier, supprimer, visualiser ou mettre en avant.",
+    "adminOrdersDetails": "Gestion des Commandes",
+    "adminOrders": "Ceci est la page de gestion des commandes, où toutes les commandes passées dans l’application peuvent être administrées. Il est possible de mettre à jour le statut des commandes afin d’informer les utilisateurs, avec des statuts tels que 'En cours de traitement', 'Livré' ou 'En préparation'.",
+    "cartPageDetails": "Panier d’Achat",
+    "cartPage": "Ceci est la page du panier, où l’utilisateur peut gérer ses produits, supprimer des articles, finaliser son achat avec ou sans un coupon de réduction, et choisir son mode de paiement, PayPal ou Stripe.",
+    "wishlistPageDetails": "Liste de Souhaits",
+    "wishlistPage": "Ceci est la page de la liste de souhaits, où l’utilisateur peut gérer les produits qu’il souhaite acheter.",
+    "searchPageDetails": "Page de Recherche",
+    "searchPage": "Ceci est la page de recherche, où l’utilisateur peut parcourir les produits de l’application et appliquer des filtres pour affiner sa recherche."
+}
   },
   "test": "Bonjour"
 }
