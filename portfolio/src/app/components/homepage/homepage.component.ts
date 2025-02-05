@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { ProjectShowcaseComponent } from './project-showcase/project-showcase.component';
 import { CommonModule } from '@angular/common';
+import { ContactFormComponent } from '../contact-form/contact-form.component'
 
 @Component({
   selector: 'app-homepage',
   standalone: true,
-  imports: [ProjectShowcaseComponent, TranslateModule, CommonModule],
+  imports: [ProjectShowcaseComponent, TranslateModule, CommonModule, ContactFormComponent],
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css']
 })
