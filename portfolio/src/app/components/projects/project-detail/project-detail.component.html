@@ -1,16 +1,16 @@
 <div class="project-detail">  
   <div class="pd-des">  
     <h2>{{ detail }}</h2>  
+    <p>{{ detailMediaType }}</p>
     <p>{{ description }}</p>  
   </div>  
   <div class="pd-media">  
-    <ng-container *ngIf="detailMediaType === 'video'">
-      <video controls [src]="detailMedia"></video>
-    </ng-container>
-    <ng-container *ngIf="detailMediaType !== 'video'">
-      <img [src]="detailMedia" alt="Project media"/>
-    </ng-container>
-    <img *ngIf="responsiveDetailMedia" [src]="responsiveDetailMedia" alt="Responsive Project media" class="mobile-view"/>
-  </div>
-  
+    
+    <img *ngIf="detailMediaType == 'img'" [src]="detailMedia" alt="Project media"/>  
+
+    <video *ngIf="detailMediaType === 'video'" controls [src]="detailMedia"></video>
+
+    <img [src]="responsiveDetailMedia" alt="Responsive Project media" class="mobile-view"/>
+    
+  </div>  
 </div>
