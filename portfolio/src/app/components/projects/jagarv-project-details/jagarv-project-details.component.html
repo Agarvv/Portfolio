@@ -1,77 +1,76 @@
 <main>
     <div class="jagarv-h">
         <h1>Jagarv</h1>
-          </div>
+    </div>
 
-            <app-project-detail
-                [detail]="translate.get('projectDetails.jagarv.videoDetail') | async"
-                    [description]="translate.get('projectDetails.jagarv.videoDescription') | async"
-                        [detailMediaType]="'video'"
-                            [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-                                [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-                                  ></app-project-detail>
+    <app-project-detail
+        [detail]="translate.get('projectDetails.jagarv.videoDetail') | async"
+        [description]="translate.get('projectDetails.jagarv.videoDescription') | async"
+        [detailMediaType]="'video'"
+        [detailMedia]="'assets/projects/videos/jagarv/jagarv.mp4'"
+    ></app-project-detail>
 
-                                    <app-project-detail
-                                        [detail]="translate.get('projectDetails.jagarv.homepageDetail') | async"
-                                            [description]="translate.get('projectDetails.jagarv.homepage') | async"
-                                                [detailMediaType]="'img'"
-                                                    [detailMedia]="'assets/projects/jagarv/Capture_d&apos;ecran_2025-02-05_205157.png'"
-                                                        [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-                                                          ></app-project-detail>
+    <app-project-detail
+        [detail]="translate.get('projectDetails.jagarv.homepageDetail') | async"
+        [description]="translate.get('projectDetails.jagarv.homepage') | async"
+        [detailMediaType]="'img'"
+        [detailMedia]="'assets/projects/jagarv/homepage.png'"
+        [responsiveDetailMedia]="'assets/projects/jagarv-rs/rs-homepage.png'"
+    ></app-project-detail>
 
-                                                            <app-project-detail
-                                                                [detail]="translate.get('projectDetails.jagarv.adminDashboardDetails') | async"
-                                                                    [description]="translate.get('projectDetails.jagarv.adminDashboard') | async"
-                                                                        [detailMediaType]="'img'"
-                                                                            [detailMedia]="'assets/projects/jagarv/Capture_d&apos;ecran_2025-02-05_205235.png'"
-                                                                                [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-                                                                                  ></app-project-detail>
+    <app-project-detail
+        [detail]="translate.get('projectDetails.jagarv.adminDashboardDetails') | async"
+        [description]="translate.get('projectDetails.jagarv.adminDashboard') | async"
+        [detailMediaType]="'img'"
+        [detailMedia]="'assets/projects/jagarv/admin-dashboard.png'"
+        [responsiveDetailMedia]="'assets/projects/jagarv-rs/rs-dashboard.png'"
+    ></app-project-detail>
 
-                                                                                    <app-project-detail
-                                                                                        [detail]="translate.get('projectDetails.jagarv.adminUsersDetails') | async"
-                                                                                            [description]="translate.get('projectDetails.jagarv.adminUsers') | async"
-                                                                                                [detailMediaType]="'img'"
-                                                                                                    [detailMedia]="'assets/projects/jagarv/Capture_d&apos;ecran_2025-02-05_205312.png'"
-                                                                                                        [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-                                                                                                          ></app-project-detail>
+    <app-project-detail
+        [detail]="translate.get('projectDetails.jagarv.adminUsersDetails') | async"
+        [description]="translate.get('projectDetails.jagarv.adminUsers') | async"
+        [detailMediaType]="'img'"
+        [detailMedia]="'assets/projects/jagarv/admin-users.png'"
+        [responsiveDetailMedia]="'assets/projects/jagarv-rs/rs-admin-users.png'"
+    ></app-project-detail>
 
-                                                                                                            <app-project-detail
-                                                                                                                [detail]="translate.get('projectDetails.jagarv.adminPostsDetails') | async"
-                                                                                                                    [description]="translate.get('projectDetails.jagarv.adminPosts') | async"
-                                                                                                                        [detailMediaType]="'img'"
-                                                                                                                            [detailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-                                                                                                                                [responsiveDetailMedia]="'assets/projects/jagarv/Capture_d&apos;ecran_2025-02-05_205331.png'"
-                                                                                                                                  ></app-project-detail>
+    <app-project-detail
+        [detail]="translate.get('projectDetails.jagarv.adminPostsDetails') | async"
+        [description]="translate.get('projectDetails.jagarv.adminPosts') | async"
+        [detailMediaType]="'img'"
+        [detailMedia]="'assets/projects/jagarv/admin-products.png'"
+        [responsiveDetailMedia]="'assets/projects/jagarv-rs/rs-admin-products.png'"
+    ></app-project-detail>
 
-                                                                                                                                    <app-project-detail
-                                                                                                                                        [detail]="translate.get('projectDetails.jagarv.adminOrdersDetails') | async"
-                                                                                                                                            [description]="translate.get('projectDetails.jagarv.adminOrders') | async"
-                                                                                                                                                [detailMediaType]="'img'"
-                                                                                                                                                    [detailMedia]="'assets/projects/jagarv/Capture_d&apos;ecran_2025-02-05_205402.png'"
-                                                                                                                                                        [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-                                                                                                                                                          ></app-project-detail>
+    <app-project-detail
+        [detail]="translate.get('projectDetails.jagarv.adminOrdersDetails') | async"
+        [description]="translate.get('projectDetails.jagarv.adminOrders') | async"
+        [detailMediaType]="'img'"
+        [detailMedia]="'assets/projects/jagarv/admin-orders.png'"
+        [responsiveDetailMedia]="'assets/projects/jagarv-rs/rs-admin-orders.png'"
+    ></app-project-detail>
 
-                                                                                                                                                            <app-project-detail
-                                                                                                                                                                [detail]="translate.get('projectDetails.jagarv.cartPageDetails') | async"
-                                                                                                                                                                    [description]="translate.get('projectDetails.jagarv.cartPage') | async"
-                                                                                                                                                                        [detailMediaType]="'img'"
-                                                                                                                                                                            [detailMedia]="'assets/projects/jagarv/Capture_d&apos;ecran_2025-02-05_205428.png'"
-                                                                                                                                                                                [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-                                                                                                                                                                                  ></app-project-detail>
+    <app-project-detail
+        [detail]="translate.get('projectDetails.jagarv.cartPageDetails') | async"
+        [description]="translate.get('projectDetails.jagarv.cartPage') | async"
+        [detailMediaType]="'img'"
+        [detailMedia]="'assets/projects/jagarv/admin-cart.png'"
+        [responsiveDetailMedia]="'assets/projects/jagarv-rs/rs-cart.png'"
+    ></app-project-detail>
 
-                                                                                                                                                                                    <app-project-detail
-                                                                                                                                                                                        [detail]="translate.get('projectDetails.jagarv.wishlistPageDetails') | async"
-                                                                                                                                                                                            [description]="translate.get('projectDetails.jagarv.wishlistPage') | async"
-                                                                                                                                                                                                [detailMediaType]="'img'"
-                                                                                                                                                                                                    [detailMedia]="'assets/projects/jagarv/Capture_d&apos;ecran_2025-02-05_205448.png'"
-                                                                                                                                                                                                        [responsiveDetailMedia]="'assets/projects/jagarv/Capture_d&apos;ecran_2025-02-05_205448.png'"
-                                                                                                                                                                                                          ></app-project-detail>
+    <app-project-detail
+        [detail]="translate.get('projectDetails.jagarv.wishlistPageDetails') | async"
+        [description]="translate.get('projectDetails.jagarv.wishlistPage') | async"
+        [detailMediaType]="'img'"
+        [detailMedia]="'assets/projects/jagarv/wishlist.png'"
+        [responsiveDetailMedia]="'assets/projects/jagarv-rs/rs-wishlist.png'"
+    ></app-project-detail>
 
-                                                                                                                                                                                                            <app-project-detail
-                                                                                                                                                                                                                [detail]="translate.get('projectDetails.jagarv.searchPageDetails') | async"
-                                                                                                                                                                                                                    [description]="translate.get('projectDetails.jagarv.searchPage') | async"
-                                                                                                                                                                                                                        [detailMediaType]="'img'"
-                                                                                                                                                                                                                            [detailMedia]="'assets/projects/jagarv/Capture_d&apos;ecran_2025-02-05_205527.png'"
-                                                                                                                                                                                                                                [responsiveDetailMedia]="'assets/Showroom_508_M_Allure_1.jpg'"
-                                                                                                                                                                                                                                  ></app-project-detail>
-                                                                                                                                                                                                                                  </main>
+    <app-project-detail
+        [detail]="translate.get('projectDetails.jagarv.searchPageDetails') | async"
+        [description]="translate.get('projectDetails.jagarv.searchPage') | async"
+        [detailMediaType]="'img'"
+        [detailMedia]="'assets/projects/jagarv/search.png'"
+        [responsiveDetailMedia]="'assets/projects/jagarv-rs/rs-search.png'"
+    ></app-project-detail>
+</main>
