@@ -10,7 +10,7 @@
 
     <video *ngIf="detailMediaType === 'video'" controls [src]="detailMedia"></video>
 
-    <img [src]="responsiveDetailMedia" alt="Responsive Project media" class="mobile-view"/>
+    <img *ngIf="responsiveDetailMedia" [src]="responsiveDetailMedia" alt="Responsive Project media" class="mobile-view"/>
     
   </div>  
 </div>
