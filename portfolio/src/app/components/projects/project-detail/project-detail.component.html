@@ -6,7 +6,7 @@
   </div>  
   <div class="pd-media">  
     
-    <img *ngIf="detailMediaType == 'img'" [src]="detailMedia" alt="Project media"/>  
+    <img *ngIf="detailMediaType === 'img'" [src]="detailMedia" alt="Project media"/>  
 
     <video *ngIf="detailMediaType === 'video'" controls [src]="detailMedia"></video>
 
