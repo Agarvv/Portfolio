@@ -136,17 +136,22 @@
     }
   },
   "test": "Bonjour",
+  
   "contactForm": {
-      "contactFormHeader": "Donne-moi un Coup de Fil",
-      "nameLabel": "Votre Nom",
-      "emailLabel": "Votre Email",
-      "messageLabel": "Votre Message",
-      "loadingMessage": "Un Instant...",
-      "errorMessage": "Oups ! Une Erreur s'est Produite...",
-      "successMessage": "Email Envoyé.",
-      "sendMessage": "Envoyer",
-      "nameError": "Doit contenir au moins 3 caractères",
-      "emailError": "Entrez un email valide.",
-      "messageError": "Doit contenir au moins 10 caractères"
-}
+    "contactFormHeader": "Donne-moi un Coup de Fil",
+    "nameLabel": "Votre Nom",
+    "emailLabel": "Votre Email",
+    "messageLabel": "Votre Message",
+    "loadingMessage": "Un Instant...",
+    "errorMessage": "Oups ! Une Erreur s'est Produite...",
+    "successMessage": "Email Envoyé.",
+    "sendMessage": "Envoyer",
+    "nameError": "Doit contenir au moins 3 caractères",
+    "emailError": "Entrez un email valide.",
+    "messageError": "Doit contenir au moins 10 caractères",
+    "nameMinLengthError": "Doit contenir au moins 3 caractères",
+    "emailInvalidError": "Entrez un email valide.",
+    "messageMinLengthError": "Doit contenir au moins 10 caractères"
+  }
+
 }

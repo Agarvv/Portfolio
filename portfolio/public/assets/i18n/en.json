@@ -140,17 +140,22 @@
 
 
   },
+  
+      
   "contactForm": {
-      "contactFormHeader": "Get In Touch",
-      "nameLabel": "Your Name",
-      "emailLabel": "Your Email",
-      "messageLabel": "Your Message",
-      "loadingMessage": "One Moment...",
-      "errorMessage": "Oops! An Error Occurred...",
-      "successMessage": "Email Sent.",
-      "sendMessage": "Send",
-      "nameError": "Must be at least 3 characters",
-      "emailError": "Enter a valid email.",
-      "messageError": "Must contain at least 10 characters"
-}
+    "contactFormHeader": "Get In Touch",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email",
+    "messageLabel": "Your Message",
+    "loadingMessage": "Please Wait...",
+    "errorMessage": "Oops! An Error Occurred...",
+    "successMessage": "Email Sent.",
+    "sendMessage": "Send",
+    "nameError": "Must be at least 3 characters",
+    "emailError": "Enter a valid email.",
+    "messageError": "Must contain at least 10 characters",
+    "nameMinLengthError": "Must be at least 3 characters",
+    "emailInvalidError": "Enter a valid email.",
+    "messageMinLengthError": "Must contain at least 10 characters"
+  }
 }

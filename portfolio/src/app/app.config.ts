@@ -2,7 +2,7 @@ import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { HttpClient, HttpClientModule, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { TranslateModule, TranslateLoader, TranslateService } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { routes } from './app.routes';  // Importar las rutas
+import { routes } from './app.routes'; 
 import { provideRouter } from '@angular/router';
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -11,7 +11,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    importProvidersFrom([ // Aquí importamos lo necesario para el router también
+    importProvidersFrom([ 
       HttpClientModule,
       TranslateModule.forRoot({
         loader: {
@@ -19,7 +19,7 @@ export const appConfig: ApplicationConfig = {
           useFactory: HttpLoaderFactory,
           deps: [HttpClient],
         },
-        defaultLanguage: 'es',
+        defaultLanguage: 'en',
       }),
     ]),
     provideHttpClient(withInterceptorsFromDi()),
