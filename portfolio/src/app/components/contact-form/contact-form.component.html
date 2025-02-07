@@ -1,25 +1,26 @@
 <div class="form-container">
     <form [formGroup]="form" (ngSubmit)="sendMail()">
         <h2>{{ 'contactForm.contactFormHeader' | translate }}</h2>
+        
         <div class="form-group">
             <label for="from_name">{{ 'contactForm.nameLabel' | translate }}</label>
             <input type="text" id="from_name" formControlName="from_name">
-            <small class="val-error" *ngIf="form.get('from_name').hasError('required')">{{ 'contactForm.nameError' | translate }}</small>
-            <small class="val-error" *ngIf="form.get('from_name').hasError('minlength')">{{ 'contactForm.nameMinLengthError' | translate }}</small>
+            <small class="val-error" *ngIf="form.get('from_name')?.hasError('required')">{{ 'contactForm.nameError' | translate }}</small>
+            <small class="val-error" *ngIf="form.get('from_name')?.hasError('minlength')">{{ 'contactForm.nameMinLengthError' | translate }}</small>
         </div>
 
         <div class="form-group">
             <label for="from_email">{{ 'contactForm.emailLabel' | translate }}</label>
             <input type="email" id="from_email" formControlName="from_email">
-            <small class="val-error" *ngIf="form.get('from_email').hasError('required')">{{ 'contactForm.emailError' | translate }}</small>
-            <small class="val-error" *ngIf="form.get('from_email').hasError('email')">{{ 'contactForm.emailInvalidError' | translate }}</small>
+            <small class="val-error" *ngIf="form.get('from_email')?.hasError('required')">{{ 'contactForm.emailError' | translate }}</small>
+            <small class="val-error" *ngIf="form.get('from_email')?.hasError('email')">{{ 'contactForm.emailInvalidError' | translate }}</small>
         </div>
 
         <div class="form-group">
             <label for="message">{{ 'contactForm.messageLabel' | translate }}</label>
             <textarea id="message" formControlName="message" rows="4"></textarea>
-            <small class="val-error" *ngIf="form.get('message').hasError('required')">{{ 'contactForm.messageError' | translate }}</small>
-            <small class="val-error" *ngIf="form.get('message').hasError('minlength')">{{ 'contactForm.messageMinLengthError' | translate }}</small>
+            <small class="val-error" *ngIf="form.get('message')?.hasError('required')">{{ 'contactForm.messageError' | translate }}</small>
+            <small class="val-error" *ngIf="form.get('message')?.hasError('minlength')">{{ 'contactForm.messageMinLengthError' | translate }}</small>
         </div>
 
         <button type="submit" [disabled]="loading"> 
