@@ -20,7 +20,9 @@ export class ProjectShowcaseComponent  {
   translatedDescription!: string;
   @Input() functionalities!: string[];
   @Input() translatedFunctionalities!: string[];
-  
+  @Input() pName: string = ''; 
+
+
   constructor(public translate: TranslateService) {}
 
 }
