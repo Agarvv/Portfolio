@@ -33,4 +33,11 @@ export class HomepageComponent implements OnInit {
       this.functionalitiesProject3 = projects?.project3?.functionalities || [];
     });
   }
+  
+  scrollToProjects() {
+      const el = document.getElementById('projects')
+      if(element) {
+          element.scrollIntoView({ behavior: 'smooth'})
+      }
+  }
 }
