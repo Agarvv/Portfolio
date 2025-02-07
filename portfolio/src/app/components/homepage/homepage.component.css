@@ -135,4 +135,8 @@
   .projects {
     flex-direction: column;
   }
+
+  .code-banner button {
+    display: none; 
+  }
 }
