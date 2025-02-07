@@ -36,8 +36,8 @@ export class HomepageComponent implements OnInit {
   
   scrollToProjects() {
       const el = document.getElementById('projects')
-      if(element) {
-          element.scrollIntoView({ behavior: 'smooth'})
+      if(el) {
+          el.scrollIntoView({ behavior: 'smooth'})
       }
   }
 }

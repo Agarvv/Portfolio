@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import * as emailjs from 'emailjs-com';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common'
 
 @Component({
   selector: 'app-contact-form',
   standalone: true,
-  imports: [ReactiveFormsModule, TranslateModule],
+  imports: [ReactiveFormsModule, CommonModule, TranslateModule],
   templateUrl: './contact-form.component.html',
   styleUrls: ['./contact-form.component.css']
 })
